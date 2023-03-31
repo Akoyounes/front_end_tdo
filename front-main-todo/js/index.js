@@ -1,5 +1,5 @@
 // const BACKEND_ROOT_URL = "http://127.0.0.1:3001";
-const BACKEND_ROOT_URL = "https://todo-back-vt14.onrender.com";
+const BACKEND_ROOT_URL = "https://back-end-todo.onrender.com";
 import { Todos } from "./class/Todos.js";
 const todos = new Todos(BACKEND_ROOT_URL);
 const list = document.querySelector("#todolist");
